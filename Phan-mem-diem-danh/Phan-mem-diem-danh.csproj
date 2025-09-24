@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <RootNamespace>Phan_mem_diem_danh</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\ClassFormScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Views\ClassListScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Views\LoginScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Views\SettingScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Views\StudentFormScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Views\StudentListScreen.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+</Project>
