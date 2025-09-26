@@ -31,10 +31,18 @@ partial class StudentFormScreen
     /// </summary>
     private void InitializeComponent()
     {
-        this.components = new System.ComponentModel.Container();
-        this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "StudentFormScreen";
+        SuspendLayout();
+        // 
+        // StudentFormScreen
+        // 
+        AutoScaleDimensions = new SizeF(8F, 20F);
+        AutoScaleMode = AutoScaleMode.Font;
+        ClientSize = new Size(800, 450);
+        Name = "StudentFormScreen";
+        Text = "StudentFormScreen";
+        FormClosing += StudentFormScreen_FormClosing;
+        Load += StudentFormScreen_Load;
+        ResumeLayout(false);
     }
 
     #endregion

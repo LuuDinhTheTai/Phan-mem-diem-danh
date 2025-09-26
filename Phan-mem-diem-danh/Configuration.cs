@@ -1,4 +1,5 @@
-﻿using Phan_mem_diem_danh.Database.Repositories;
+﻿using Phan_mem_diem_danh.Database.Entities;
+using Phan_mem_diem_danh.Database.Repositories;
 using Phan_mem_diem_danh.Services;
 using Phan_mem_diem_danh.Views;
 
@@ -44,7 +45,7 @@ public class Configuration
         ClassListScreen = new ClassListScreen(this);
         LoginScreen = new LoginScreen(this);
         SettingScreen = new SettingScreen(this);
-        StudentFormScreen = new StudentFormScreen(this);
+        StudentFormScreen = new StudentFormScreen(this, null);
         StudentListScreen = new StudentListScreen(this);
     }
 }
