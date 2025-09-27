@@ -9,16 +9,4 @@ public class AccountService
         
     }
 
-    private static AccountService? _instance = new AccountService();
-    public Account? CurrentAccount { get; private set; }
-
-    private AccountService() { }
-
-    public static AccountService Instance => _instance; 
-
-    public void SetAccount(Account account)
-    {
-            CurrentAccount = account;
-    }
-    
 }

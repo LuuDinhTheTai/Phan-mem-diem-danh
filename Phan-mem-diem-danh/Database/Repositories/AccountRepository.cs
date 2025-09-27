@@ -31,7 +31,7 @@ public class AccountRepository : BaseRepository<Account, int>
         throw new NotImplementedException();
     }
 
-    public Account? Login(string msv, string password)
+    public Account? FindByMSVAndPassword(string msv, string password)
     {
         Account? account = null;
         string query = @"

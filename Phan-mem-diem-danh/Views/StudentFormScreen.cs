@@ -9,9 +9,8 @@ public partial class StudentFormScreen : Form
 
     }
 
-    public StudentFormScreen(Configuration configurationt, Account? currentAccount)
+    public StudentFormScreen(Configuration configurationt)
     {
-
         InitializeComponent();
     }
 

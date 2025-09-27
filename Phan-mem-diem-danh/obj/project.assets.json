@@ -1579,11 +1579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\GitHub\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\Phan-mem-diem-danh.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\C#\\LTTQ\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\Phan-mem-diem-danh.csproj",
       "projectName": "Phan-mem-diem-danh",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\Phan-mem-diem-danh.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\C#\\LTTQ\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\Phan-mem-diem-danh.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\C#\\LTTQ\\Phan-mem-diem-danh\\Phan-mem-diem-danh\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

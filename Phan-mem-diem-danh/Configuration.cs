@@ -45,7 +45,7 @@ public class Configuration
         ClassListScreen = new ClassListScreen(this);
         LoginScreen = new LoginScreen(this);
         SettingScreen = new SettingScreen(this);
-        StudentFormScreen = new StudentFormScreen(this, null);
+        StudentFormScreen = new StudentFormScreen(this);
         StudentListScreen = new StudentListScreen(this);
     }
 }
